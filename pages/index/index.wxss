@@ -1,0 +1,36 @@
+/**index.wxss**/
+
+.sign{
+  display: block;
+}
+
+#calendar{
+  padding:0 24px 12px;
+}
+
+.calendar{
+  color: rgba(255, 255, 255, 0.973);
+  background-color: #ab8ce6a2
+}
+
+.header{
+  color: rgba(48, 93, 241, 0.719);
+  line-height: 40px;
+}
+
+#greatWords{
+  padding: 12px 24px;
+}
+
+#greatWords >text{
+  line-height: 40px;
+  font-size: 16px;
+}
+
+#greatWords view{
+  background-color:rgba(48, 93, 241, 0.719);
+  color: #fff;
+  border-radius: 3px;
+  font-size: 14px;
+  padding: 10px 3px;
+}

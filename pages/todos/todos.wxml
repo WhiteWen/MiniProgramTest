@@ -1,0 +1,14 @@
+<!-- pages/todos/todos.wxml -->
+
+<view id="todos">
+  <view class="title">
+    <text>待办事项:</text>
+    <text class="icon" bindtap="add">+</text>
+  </view>
+  <view class="list">
+    <view class="item {{randomNum[index]}}"  wx:for="{{list}}" wx:key="index" bindtap="tapBackDelBtn" id="{{'listChild'+index}}"  bindtouchend="touchEndToDel" bindtouchstart="touchStartToDel" bindtouchmove="touchMoveToDel" data-editindex="{{index}}">
+      <text bindtap="edit" data-editindex="{{index}}">{{index+1}}: {{item}}</text>
+      <button class="{{moveLeft[index] == '-64' ? 'btn-del show' : 'btn-del'}}" bindtap="removeSingle" data-index="{{index}}">删除</button>
+    </view>
+  </view>
+</view>

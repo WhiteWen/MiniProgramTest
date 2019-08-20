@@ -1,0 +1,6 @@
+<view>
+  这是footer
+</view>
+<template name = "footer">
+  没准是头部
+</template>

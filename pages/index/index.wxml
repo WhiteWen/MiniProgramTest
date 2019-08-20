@@ -1,0 +1,14 @@
+<!--index.wxml-->
+
+<view id="calendar">
+  <calendar  calendar-style="calendar" header-style="header"/>
+</view>
+
+<button class="sign">签到</button>
+
+<view id="greatWords">
+  <text>每日一句(抓包数据)</text>
+  <view>
+    <text class="wordsContent">good good study, day day up! `a great chinese rhesis</text>
+  </view>
+</view>

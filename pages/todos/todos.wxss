@@ -1,0 +1,101 @@
+#todos{
+  background-color: #f8f8f8;
+}
+
+
+.title{
+  display: flex;
+  flex: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  vertical-align: middle;
+  padding: 0 24px;
+  font-size: 16px;
+  line-height: 40px;
+}
+
+.title .icon{
+  vertical-align: middle;
+  font-size: 24px;
+  color: rgba(13, 93, 241, 0.623);
+  font-weight: bold;
+}
+
+.list{padding: 0 24px;
+  font-size: 14px;
+}
+
+.list view{
+  color: rgb(136, 136, 136);
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex: row wrap;
+  line-height: 28px;
+  border-radius: 5px;
+  padding: 6px 3px;
+  margin-bottom: 20px;
+}
+.list .bg1{
+  background-color: rgb(227, 238, 187);
+  box-shadow: 3px 3px 5px rgb(227, 238, 187);
+}
+.list .bg2{
+  background-color: rgb(238, 230, 187);
+  box-shadow: 3px 3px 5px rgb(238, 230, 187);
+}
+.list .bg3{
+  background-color: rgb(238, 207, 187);
+  box-shadow: 3px 3px 5px rgb(238, 207, 187);
+}
+.list .bg4{
+  background-color: rgb(238, 187, 187);
+  box-shadow: 3px 3px 5px rgb(238, 187, 187);
+}
+.list .bg5{
+  background-color: rgb(187, 232, 238);
+  box-shadow: 3px 3px 5px rgb(187, 232, 238);
+}
+.list .bg6{
+  background-color: rgb(218, 187, 238);
+  box-shadow: 3px 3px 5px rgb(218, 187, 238);
+}
+.list .bg7{
+  background-color: rgb(243, 84, 235);
+  box-shadow: 3px 3px 5px rgb(243, 84, 235);
+}
+.list text{
+  width: 100%;
+}
+
+.item .showDel{
+  transform:translate(-64px,0);
+  -ms-transform:translate(-64px,0);
+  -moz-transform:translate(-64px,0);
+  -webkit-transform:translate(-64px,0);
+  -o-transform:translate(-64px,0);
+}
+.item .btn-del{
+  position: absolute;
+  display: flex;
+  top:0px;
+  right:0px;
+  color: #fff;
+  background: #fd4346;
+  height: 100%;
+  border-radius: 0px;
+  border: none;
+  align-items: center;
+  transform:translate(64px,0);
+  -ms-transform:translate(64px,0);
+  -moz-transform:translate(64px,0);
+  -webkit-transform:translate(64px,0);
+  -o-transform:translate(64px,0);
+}
+.item .btn-del.show{
+  transform:translate(0,0);
+  -ms-transform:translate(0,0);
+  -moz-transform:translate(0,0);
+  -webkit-transform:translate(0,0);
+  -o-transform:translate(0,0);
+}

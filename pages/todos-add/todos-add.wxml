@@ -1,0 +1,9 @@
+<!-- pages/todos-add/todos-add.wxml -->
+
+<view class="header">
+  <text bindtap="bindViewTap" data-oldvalue="{{textareaOldVal}}">保存</text>
+</view>
+<view class="addHtml">
+  <textarea confirm-type="done" type="text" placeholder="添加待办事务" placeholder-class="inputHolder" maxlength="200" auto-focus bindinput="getAddContent" value="{{textareaVal}}" >
+  </textarea>
+</view>

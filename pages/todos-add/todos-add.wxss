@@ -1,0 +1,26 @@
+/* pages/todos-add/todos-add.wxss */
+
+page{
+  background-color: rgb(252, 231, 186);
+  font-size: 14px;
+}
+.header{
+  line-height: 40px;
+  text-align: right;
+  padding: 0 24px;
+  font-size: 16px;
+  border-bottom: solid 1px #999;
+}
+.inputHolder{
+  color: #000;
+}
+.addHtml{
+  display: flex;
+  padding: 0 24px;
+}
+.addHtml textarea{
+  width: 100%;
+  color: #333;
+  line-height: 1.5;
+  padding: 14px 0;
+}
